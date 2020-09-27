@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.food.devtime.devtimefood.MesaActivity"
+    tools:showIn="@layout/activity_mesa">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mesa Selecionada : "
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/txtMesa"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:gravity="center"
+                android:hint="..."
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnMesa1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1" />
+
+                <Button
+                    android:id="@+id/btnMesa4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4" />
+
+                <Button
+                    android:id="@+id/btnMesa7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7" />
+
+                <Button
+                    android:id="@+id/btnMesa10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10" />
+
+                <Button
+                    android:id="@+id/btnMesa13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="13" />
+
+                <Button
+                    android:id="@+id/btnMesa16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="16" />
+
+                <Button
+                    android:id="@+id/btnMesa19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="19" />
+
+                <Button
+                    android:id="@+id/btnMesa22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="22" />
+
+                <Button
+                    android:id="@+id/btnMesa25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="25" />
+
+                <Button
+                    android:id="@+id/btnMesa28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="28" />
+
+                <Button
+                    android:id="@+id/btnMesa31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="31" />
+
+                <Button
+                    android:id="@+id/btnMesa34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="34" />
+
+                <Button
+                    android:id="@+id/btnMesa37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="37" />
+
+                <Button
+                    android:id="@+id/btnMesa40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="40" />
+
+                <Button
+                    android:id="@+id/btnMesa43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="43" />
+
+                <Button
+                    android:id="@+id/btnMesa46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="46" />
+
+                <Button
+                    android:id="@+id/btnMesa49"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="49" />
+
+                <Button
+                    android:id="@+id/btnMesa52"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="52" />
+
+                <Button
+                    android:id="@+id/btnMesa55"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="55" />
+
+                <Button
+                    android:id="@+id/btnMesa58"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="58" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnMesa2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2" />
+
+                <Button
+                    android:id="@+id/btnMesa5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5" />
+
+                <Button
+                    android:id="@+id/btnMesa8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8" />
+
+                <Button
+                    android:id="@+id/btnMesa11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="11" />
+
+                <Button
+                    android:id="@+id/btnMesa14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="14" />
+
+                <Button
+                    android:id="@+id/btnMesa17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="17" />
+
+                <Button
+                    android:id="@+id/btnMesa20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="20" />
+
+                <Button
+                    android:id="@+id/btnMesa23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="23" />
+
+                <Button
+                    android:id="@+id/btnMesa26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="26" />
+
+                <Button
+                    android:id="@+id/btnMesa29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="29" />
+
+                <Button
+                    android:id="@+id/btnMesa32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="32" />
+
+                <Button
+                    android:id="@+id/btnMesa35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="35" />
+
+                <Button
+                    android:id="@+id/btnMesa38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="38" />
+
+                <Button
+                    android:id="@+id/btnMesa41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="41" />
+
+                <Button
+                    android:id="@+id/btnMesa44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="44" />
+
+                <Button
+                    android:id="@+id/btnMesa47"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="47" />
+
+                <Button
+                    android:id="@+id/btnMesa50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="50" />
+
+                <Button
+                    android:id="@+id/btnMesa53"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="53" />
+
+                <Button
+                    android:id="@+id/btnMesa56"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="56" />
+
+                <Button
+                    android:id="@+id/btnMesa59"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="59" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnMesa3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3" />
+
+                <Button
+                    android:id="@+id/btnMesa6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6" />
+
+                <Button
+                    android:id="@+id/btnMesa9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9" />
+
+                <Button
+                    android:id="@+id/btnMesa12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12" />
+
+                <Button
+                    android:id="@+id/btnMesa15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15" />
+
+                <Button
+                    android:id="@+id/btnMesa18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="18" />
+
+                <Button
+                    android:id="@+id/btnMesa21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="21" />
+
+                <Button
+                    android:id="@+id/btnMesa24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="24" />
+
+                <Button
+                    android:id="@+id/btnMesa27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="27" />
+
+                <Button
+                    android:id="@+id/btnMesa30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="30" />
+
+                <Button
+                    android:id="@+id/btnMesa33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="33" />
+
+                <Button
+                    android:id="@+id/btnMesa36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="36" />
+
+                <Button
+                    android:id="@+id/btnMesa39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="39" />
+
+                <Button
+                    android:id="@+id/btnMesa42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="42" />
+
+                <Button
+                    android:id="@+id/btnMesa45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="45" />
+
+                <Button
+                    android:id="@+id/btnMesa48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="48" />
+
+                <Button
+                    android:id="@+id/btnMesa51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="51" />
+
+                <Button
+                    android:id="@+id/btnMesa54"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="54" />
+
+                <Button
+                    android:id="@+id/btnMesa57"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="57" />
+
+                <Button
+                    android:id="@+id/btnMesa60"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="60" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

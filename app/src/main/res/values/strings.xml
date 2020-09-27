@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">DevTime\nFood</string>
+    <string name="title_activity_pedido_view">PedidoViewActivity</string>
+    <string name="title_activity_menu">Pedidos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_incluir">Incluir</string>
+    <string name="action_editar">Editar</string>
+    <string name="action_excluir">Excluir</string>
+    <string name="action_ordenar_data">Ordenar por Data</string>
+    <string name="sair">Sair</string>
+    <string name="entrar">Login</string>
+    <string name="configuracao">Configurações</string>
+    <string name="action_ordenar_cliente">Ordenar por Cliente</string>
+    <string name="title_activity_clientes_edit">Clientes</string>
+    <string name="title_activity_produtos_edit">Produtos</string>
+    <string name="title_activity_atendente_edit">AtendenteEditActivity</string>
+    <string name="title_activity_configuracao">Configuração do Servidor</string>
+    <string name="title_activity_Cliente">Clientes</string>
+    <string name="title_activity_Produto">Produtos</string>
+    <string name="txtIP">IP</string>
+    <string name="txtDriver">net.sourceforge.jtds.jdbc.Driver</string>
+    <string name="txtBancoDados" />
+    <string name="txtUsuario" />
+    <string name="txtSenha" />
+    <string name="btnSalvarConfiguracoes">Salvar Configurações</string>
+    <string name="btnTestarConexao">Testar Conexão</string>
+    <string name="action_salvar_alteracoes">Salvar Alterações</string>
+    <string name="action_testar_conexao">Testar Conexão Local</string>
+    <string name="action_excluir_alteracoes">Excluir Configuração</string>
+    <string name="action_testar_conexao_remota">Testar Conexão Remota</string>
+    <string name="action_ordenar_codigo">Ordenar por Código</string>
+    <string name="action_ordenar_nome">Ordenar por Nome</string>
+    <string name="action_ordenar_produtonome">Ordenar por Nome</string>
+    <string name="action_ordenar_produtocodigo">Ordenar por Código</string>
+    <string name="title_activity_pedidos_edit">Pedidos</string>
+    <string name="action_incluir_pedido">Incluir Pedido</string>
+    <string name="title_activity_add_produto">Adicionar Produtos</string>
+    <string name="excluir">Deletar</string>
+    <string name="salvar">Adicionar</string>
+    <string name="produtos_adicionados">Produtos Adicionados</string>
+    <string name="Add">A</string>
+    <string name="Menos">M</string>
+    <string name="action_fechar_pedido">Encerrar Pedido ?</string>
+    <string name="action_imprimir_pedido">Imprimir Pedido !</string>
+    <string name="title_activity_editar_produto">Editar Produtos</string>
+    <string name="title_activity_mesa">Selecione a Mesa...</string>
+    <string name="title_activity_monitor">Monitor de Preparo</string>
+    <string name="produto">Adicionar Produto</string>
+    <string name="prodpersonalizado">Adicionar Personalizado</string>
+</resources>

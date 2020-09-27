@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="2dp"
+    android:background="#fffffe"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:weightSum="5">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblCodigoPro"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/lblNomePro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MOTOROLA"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/lblValorPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MOTOROLA"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/lblUnidPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MOTOROLA"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>
