@@ -39,7 +39,6 @@
             android:name=".ClientesActivity"
             android:label="@string/title_activity_Cliente"
             android:theme="@style/AppTheme.NoActionBar" />
-        />
         <activity
             android:name=".ProdutosActivity"
             android:label="@string/title_activity_Produto"

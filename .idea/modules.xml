@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DevTime.Food.iml" filepath="$PROJECT_DIR$/DevTime.Food.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Food.iml" filepath="$PROJECT_DIR$/.idea/modules/Food.iml" group="Food" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Food-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Food-app.iml" group="Food/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jtds-1.2.7/Food-jtds-1.2.7.iml" filepath="$PROJECT_DIR$/.idea/modules/jtds-1.2.7/Food-jtds-1.2.7.iml" group="Food/jtds-1.2.7" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/jtds-1.2.7/jtds-1.2.7.iml" filepath="$PROJECT_DIR$/jtds-1.2.7/jtds-1.2.7.iml" />
     </modules>

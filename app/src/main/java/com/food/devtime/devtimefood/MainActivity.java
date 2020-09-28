@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         NotificationManager mNotificationManager =
                 (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
 // mId allows you to update the notification later on.
-        mNotificationManager.notify(mBuilder.mNumber, mBuilder.build());
+        //mNotificationManager.notify(mBuilder.mNumber, mBuilder.build());
 
     }
 
